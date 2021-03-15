@@ -1,2 +1,7 @@
 
 .last_build_id
+.flutter-plugins
+.packages
+.flutter-plugins-dependencies
+linktree.iml
+lib/generated_plugin_registrant.dart
