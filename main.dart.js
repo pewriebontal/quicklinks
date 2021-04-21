@@ -50736,7 +50736,7 @@ $C:"$0",
 $R:0,
 $S:0}
 Y.zD.prototype={
-P:function(a,b){var s,r,q,p,o,n=null,m=T.l4(n,25,n),l=V.a2K(new K.xb(C.iv,new L.pc("assets/images/profile.jpg"),50,n)),k=T.l4(n,28,n),j=L.Ct("@pewriebontal",A.hN(n,n,n,n,n,n,n,n,n,n,n,20,n,n,n,n,!0,n,n,n,n,n,n),n),i=T.ahG(),h=L.Ct("a baked sweet potato",n,n),g=T.l4(n,25,n),f=C.m6.i(0,800)
+P:function(a,b){var s,r,q,p,o,n=null,m=T.l4(n,25,n),l=V.a2K(new K.xb(C.iv,new L.pc("assets/images/profile.png"),50,n)),k=T.l4(n,28,n),j=L.Ct("@pewriebontal",A.hN(n,n,n,n,n,n,n,n,n,n,n,20,n,n,n,n,!0,n,n,n,n,n,n),n),i=T.ahG(),h=L.Ct("a baked sweet potato",n,n),g=T.l4(n,25,n),f=C.m6.i(0,800)
 f.toString
 s=C.au.i(0,800)
 s.toString
