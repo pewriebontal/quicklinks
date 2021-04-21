@@ -23,14 +23,29 @@
     Fore more details:
     * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
   -->
-  <base href="/linktree/" />
+  <base href="https://pewriebontal.github.io/linktree/" />
 
   <meta charset="UTF-8" />
   <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
   <meta name="description" content="pewriebontal's linktree" />
   <link rel="canonical" href="https://pewriebontal.github.io/linktree" />
-  <meta name="keywords"
-    content="pewriebontal, pewriebontal.github.io, linktree, min thu khine, pewpew, pewrie, bontal, social, flutter" />
+
+  <!-- SEO related -->
+  <title>Linktree | pewriebontal</title>
+  <meta name="description" content="pewriebontal's linktree made with ❤, powered by Flutter" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="keywords" content="pewriebontal, linktree, min thu khine, pewpew, pewrie, bontal, social, flutter" />
+
+  <!-- Tracking codes-->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XZ98J4L1Y5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-XZ98J4L1Y5');
+  </script>
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -41,8 +56,22 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png" />
 
-  <title>Linktree</title>
-  <link rel="manifest" href="manifest.json" />
+  <!-- Preload -->
+  <link rel="preload" href="favicon.png" as="image" />
+  <link rel="preload" href="assets/assets/images/profile.png" as="image" />
+  <link rel="preload" href="icons/Icon-192.png" as="image" />
+  <link rel="preload" href="icons/Icon-512.png" as="image" />
+
+  <link rel="preload" href="flutter_service_worker.js" as="worker">
+
+  <link rel="preload" href="assets/fonts/MaterialIcons-Regular.otf" as="font" />
+  <link rel="preload" href="assets/packages/cupertino_icons/assets/CupertinoIcons.ttf" as="font" />
+  <link rel="preload" href="assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf" as="font" />
+  <link rel="preload" href="assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf" as="font" />
+  <link rel="preload" href="assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf" as="font" />
+
+  <link rel="preload" href="main.dart.js" as="script">
+
 </head>
 
 <body>
