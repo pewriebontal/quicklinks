@@ -3,23 +3,23 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "icons/Icon-512.png": "5965ccabfe3ae4bbe984dfda114b935a",
-"icons/Icon-192.png": "711a96f16dddc841768fbee11e932d24",
-"favicon.png": "063075372846cbd5d6ba9ea2e8472ade",
-"manifest.json": "0724881c5e3854b9d6eaa7e76cefb145",
-"index.html": "be4ee42f09212424fa700bbb824a3965",
-"/": "be4ee42f09212424fa700bbb824a3965",
+  "version.json": "4a74e1027b7a38622ef02fe7477cb649",
+"main.dart.js": "432e12bbed42df6ad1ab39d65fa65107",
+"index.html": "1599531b4cef7135db796589fb84798a",
+"/": "1599531b4cef7135db796589fb84798a",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "00bb2b684be61e89d1bc7d75dee30b58",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "dffd9504fcb1894620fa41c700172994",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "4b6a9b7c20913279a3ad3dd9c96e155b",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "00bb2b684be61e89d1bc7d75dee30b58",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"assets/NOTICES": "5200fb987e932e49154dac45c3cdd6ef",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
 "assets/AssetManifest.json": "c1b458c691e37d4b5c3ff211632622bd",
+"assets/NOTICES": "5a2f67576a5838b1c7656dbe1ac78fe3",
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
 "assets/assets/images/profile.png": "4074975bb4f4a8e92ec11fdf21894842",
 "assets/FontManifest.json": "5a32d4310a6f5d9a6b651e75ba0d7372",
-"main.dart.js": "fd471f473e9d814f2a7ee9722f54cd51",
-"version.json": "4a74e1027b7a38622ef02fe7477cb649"
+"icons/Icon-512.png": "5965ccabfe3ae4bbe984dfda114b935a",
+"icons/Icon-192.png": "711a96f16dddc841768fbee11e932d24",
+"manifest.json": "0724881c5e3854b9d6eaa7e76cefb145",
+"favicon.png": "063075372846cbd5d6ba9ea2e8472ade"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -37,7 +37,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
