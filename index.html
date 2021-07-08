@@ -1,91 +1,79 @@
-<!---                         _      _                 _        _
-                             (_)    | |               | |      | |
-     _ __   _____      ___ __ _  ___| |__   ___  _ __ | |_ __ _| |
-    | '_ \ / _ \ \ /\ / / '__| |/ _ \ '_ \ / _ \| '_ \| __/ _` | |
-    | |_) |  __/\ V  V /| |  | |  __/ |_) | (_) | | | | || (_| | |
-    | .__/ \___| \_/\_/ |_|  |_|\___|_.__/ \___/|_| |_|\__\__,_|_|
-    | |
-    |_|
-  
---->
-
 <!DOCTYPE html>
 <html>
 
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
+  <base href="/">
 
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Collections of my links.">
+  <link rel="shortcut icon" href="favicon.png" />
 
-    Fore more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-  -->
-  <base href="/linktree/" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="quicklinks">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-  <meta charset="UTF-8" />
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
-  <meta name="description" content="pewriebontal's linktree" />
-  <link rel="canonical" href="https://pewriebontal.github.io/linktree" />
-
-  <!-- SEO related -->
-  <title>Linktree | pewriebontal</title>
-  <meta name="description" content="pewriebontal's linktree made with ❤, powered by Flutter" />
-  <link rel="manifest" href="manifest.json" />
-  <meta name="keywords" content="pewriebontal, linktree, min thu khine, pewpew, pewrie, bontal, social, flutter" />
-
-  <!-- Tracking codes-->
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XZ98J4L1Y5"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-XZ98J4L1Y5');
-  </script>
-
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-  <meta name="apple-mobile-web-app-title" content="linktree" />
-  <link rel="apple-touch-icon" href="icons/Icon-192.png" />
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png" />
-
-  <!-- Preload -->
-  <link rel="preload" href="favicon.png" as="image" />
-  <link rel="preload" href="assets/assets/images/profile.png" as="image" />
-  <link rel="preload" href="icons/Icon-192.png" as="image" />
-  <link rel="preload" href="icons/Icon-512.png" as="image" />
-
-  <link rel="preload" href="flutter_service_worker.js" as="worker">
-
-  <link rel="preload" href="assets/fonts/MaterialIcons-Regular.otf" as="font" />
-  <link rel="preload" href="assets/packages/cupertino_icons/assets/CupertinoIcons.ttf" as="font" />
-  <link rel="preload" href="assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf" as="font" />
-  <link rel="preload" href="assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf" as="font" />
-  <link rel="preload" href="assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf" as="font" />
-
-  <link rel="preload" href="main.dart.js" as="script">
-
+  <title>Quicklinks | pewriebontal</title>
+  <link rel="manifest" href="manifest.json">
 </head>
 
 <body>
-  <!-- This script installs service_worker.js to provide PWA functionality to
-	       application. For more information, see:
-	       https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    if ("serviceWorker" in navigator) {
-      window.addEventListener("flutter-first-frame", function () {
-        navigator.serviceWorker.register("flutter_service_worker.js");
+    var serviceWorkerVersion = '1480737610';
+    var scriptLoaded = false;
+    function loadMainDartJs() {
+      if (scriptLoaded) {
+        return;
+      }
+      scriptLoaded = true;
+      var scriptTag = document.createElement('script');
+      scriptTag.src = 'main.dart.js';
+      scriptTag.type = 'application/javascript';
+      document.body.append(scriptTag);
+    }
+
+    if ('serviceWorker' in navigator) {
+
+      window.addEventListener('load', function () {
+
+        var serviceWorkerUrl = 'flutter_service_worker.js?v=' + serviceWorkerVersion;
+        navigator.serviceWorker.register(serviceWorkerUrl)
+          .then((reg) => {
+            function waitForActivation(serviceWorker) {
+              serviceWorker.addEventListener('statechange', () => {
+                if (serviceWorker.state == 'activated') {
+                  console.log('Installed new service worker.');
+                  loadMainDartJs();
+                }
+              });
+            }
+            if (!reg.active && (reg.installing || reg.waiting)) {
+
+              waitForActivation(reg.installing || reg.waiting);
+            } else if (!reg.active.scriptURL.endsWith(serviceWorkerVersion)) {
+
+              console.log('New service worker available.');
+              reg.update();
+              waitForActivation(reg.installing);
+            } else {
+              console.log('Loading app from service worker.');
+              loadMainDartJs();
+            }
+          });
+        setTimeout(() => {
+          if (!scriptLoaded) {
+            console.warn(
+              'Failed to load app from service worker. Falling back to plain <script> tag.',
+            );
+            loadMainDartJs();
+          }
+        }, 4000);
       });
+    } else {
+      loadMainDartJs();
     }
   </script>
-  <script src="main.dart.js" type="application/javascript"></script>
 </body>
 
 </html>
