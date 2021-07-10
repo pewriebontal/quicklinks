@@ -52136,7 +52136,7 @@ T.zK.prototype={
 T:function(a,b){var s=C.eu.j(0,800)
 s.toString
 s=V.a9d(E.a8g(s,C.nK,!0,new T.PB(),"Source Code"))
-return new M.tk(C.ww,s,C.ly,C.j,L.a4Y("Made with Flutter\n and other open source software.\n\xa9 pewriebontal 2020-2021\n",C.G8,C.bl),null)}}
+return new M.tk(C.ww,s,C.ly,C.j,L.a4Y("Made with Flutter\n and other open source softwares.\n\xa9 pewriebontal 2020-2021\n",C.G8,C.bl),null)}}
 T.PB.prototype={
 $0:function(){S.wU("https://github.com/pewriebontal/quicklinks")},
 $S:0}
