@@ -51895,7 +51895,7 @@ q=C.Y.j(0,800)
 q.toString
 return Q.jE(!0,E.uE(M.d9(p,T.fS(H.a([C.aP,C.cL,C.cU,C.cX,C.by,C.cW,C.aP,new V.e6(C.zW,"Home Page","http://pewriebontal.ml",o,p),new V.e6(C.zT,"Blog","http://blog.pewriebontal.ml",s,p),new V.e6(C.zS,"Softwares","http://pewriebontal.ml/404",r,p),new K.fq(C.df,"Go Back","homepage",q,p),C.cV],t.D),C.ax,C.ac,C.ar),C.q,p,p,p,p,p,p,p,C.cs,p,p,p)),C.T,!0)}}
 N.B3.prototype={
-F(a,b){return U.a8c(L.cK("Made with Flutter\n and other open source softwares.\n\xa9 Pewrie Bontal - 2020-2021\n",C.JN,C.aQ),new N.PP(b))}}
+F(a,b){return U.a8c(L.cK("Made with Flutter\n and other open source softwares.\n\xa9 Pewrie Bontal - 2020-2021",C.JN,C.aQ),new N.PP(b))}}
 N.PP.prototype={
 $0(){return A.aqZ(this.a)},
 $S:0}
