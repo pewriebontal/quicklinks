@@ -6,9 +6,9 @@ const RESOURCES = {
   "humans.txt": "f2e6c6612f762eaf43cc250203e4ae3d",
 "404.html": "10a1f18244ce5df7403ac5570c8a2352",
 "favicon.png": "badd9c99a9a0882fe16bbb9c48fdc8b4",
-"index.html": "330cde61318f54356673f8ba267e6c39",
-"/": "330cde61318f54356673f8ba267e6c39",
-"assets/NOTICES": "9ec520d121cd98491fcff7dba4e2bbd2",
+"index.html": "1cfed321d674bfd33f4cd47113a83ace",
+"/": "1cfed321d674bfd33f4cd47113a83ace",
+"assets/NOTICES": "a7efdfbd451cb09d128d657e5a10154f",
 "assets/assets/images/profile.png": "22628bca5d4bdc7c2ca29b2356c87d53",
 "assets/packages/fluentui_system_icons/fonts/FluentSystemIcons-Regular.ttf": "79b5af8efb16b34006cca96bb5f444ca",
 "assets/packages/fluentui_system_icons/fonts/FluentSystemIcons-Filled.ttf": "52b310f3c7b255fe91e182f36306b01b",
@@ -26,7 +26,7 @@ const RESOURCES = {
 "icons/Icon-maskable-192.png": "075a0b1ca0f9fe305eae6cbdcfd436ae",
 "icons/Icon-512.png": "5965ccabfe3ae4bbe984dfda114b935a",
 "icons/Icon-192.png": "711a96f16dddc841768fbee11e932d24",
-"main.dart.js": "aeed1adc814517c5780f226f066da585"
+"main.dart.js": "f41d84daf94870fbd555b16e31ec97f6"
 };
 
 // The application shell files that are downloaded before a service worker can
