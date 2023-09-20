@@ -1,4 +1,8 @@
-<!--
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--
 
 ██████╗ ███████╗██╗    ██╗██████╗ ██╗███████╗██████╗  ██████╗ ███╗   ██╗████████╗ █████╗ ██╗
 ██╔══██╗██╔════╝██║    ██║██╔══██╗██║██╔════╝██╔══██╗██╔═══██╗████╗  ██║╚══██╔══╝██╔══██╗██║
@@ -8,100 +12,65 @@
 ╚═╝     ╚══════╝ ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝╚══════╝╚═════╝  ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝╚══════╝
 
 -->
+  <base href="/">
 
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <base href="/" />
-
-  <meta charset="UTF-8" />
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
-
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Linktree like webapp.">
   <meta name="keywords"
     content=" Quicklinks, Pewrie Bontal, pewriebontal, Flutter, linktree, Min Thu Khine, Developer, VideoGame Developer, " />
-  <meta name="description" content="Pewrie Bontal's link collections, built with Flutter." />
-  <link rel="canonical" href="https://links.bontal.net/" />
+  <meta name="author" content="Pewrie Bontal">
 
-  <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="quicklinks">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-  <meta name="apple-mobile-web-app-title" content="quicklinks" />
-  <link rel="apple-touch-icon" href="icons/Icon-192.png" />
-  <meta name=" theme-color" content="#ffffff" />
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
 
   <meta property="og:title" content="Quicklinks" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://links.bontal.net" />
   <meta property="og:image" content="https://links.bontal.net/social-image.jpg" />
-  <meta property="og:description" content="Pewrie Bontal's link collections, built with Flutter." />
+  <meta property="og:description" content="Linktree like webapp." />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:url" content="https://links.bontal.net" />
   <meta name="twitter:title" content="Quicklinks" />
-  <meta name="twitter:description" content="Pewrie Bontal's link collections, built with Flutter." />
+  <meta name="twitter:description" content="Linktree like webapp." />
   <meta name="twitter:image" content="https://links.bontal.net/social-image.jpg" />
 
   <meta name="yandex-verification" content="9805c697bd50f163" />
   <meta name="msvalidate.01" content="0EB545166AD4105E0855961BC168E1D8" />
 
-  <title>Quicklinks | Pewrie Bontal</title>
-  <link rel="manifest" href="manifest.json" />
+  <title>Quicklinks</title>
+  <link rel="manifest" href="manifest.json">
+
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    const serviceWorkerVersion = "976492628";
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
 </head>
 
 <body>
   <script>
-    const serviceWorkerVersion = "1102594182";
-    var scriptLoaded = false;
-    function loadMainDartJs() {
-      if (scriptLoaded) {
-        return;
-      }
-      scriptLoaded = true;
-      var scriptTag = document.createElement("script");
-      scriptTag.src = "main.dart.js";
-      scriptTag.type = "application/javascript";
-      document.body.append(scriptTag);
-    }
-
-    if ("serviceWorker" in navigator) {
-      window.addEventListener("load", function () {
-        var serviceWorkerUrl =
-          "flutter_service_worker.js?v=" + serviceWorkerVersion;
-        navigator.serviceWorker.register(serviceWorkerUrl).then((reg) => {
-          function waitForActivation(serviceWorker) {
-            serviceWorker.addEventListener("statechange", () => {
-              if (serviceWorker.state == "activated") {
-                console.log("Installed new service worker.");
-                loadMainDartJs();
-              }
-            });
-          }
-          if (!reg.active && (reg.installing || reg.waiting)) {
-            waitForActivation(reg.installing || reg.waiting);
-          } else if (!reg.active.scriptURL.endsWith(serviceWorkerVersion)) {
-            console.log("New service worker available.");
-            reg.update();
-            waitForActivation(reg.installing);
-          } else {
-            console.log("Loading app from service worker.");
-            loadMainDartJs();
-          }
-        });
-        setTimeout(() => {
-          if (!scriptLoaded) {
-            console.warn(
-              "Failed to load app from service worker. Falling back to plain <script> tag."
-            );
-            loadMainDartJs();
-          }
-        }, 4000);
+    window.addEventListener('load', function (ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function (engineInitializer) {
+          engineInitializer.initializeEngine().then(function (appRunner) {
+            appRunner.runApp();
+          });
+        }
       });
-    } else {
-      loadMainDartJs();
-    }
+    });
   </script>
 </body>
 

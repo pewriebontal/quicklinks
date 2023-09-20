@@ -21522,7 +21522,7 @@ $1(a){var s=$.bJ
 s=(s==null?$.bJ=A.ej(self.window.flutterConfiguration):s).b
 if(s==null)s=null
 else{s=s.canvasKitBaseUrl
-if(s==null)s=null}return(s==null?"https://www.gstatic.com/flutter-canvaskit/9064459a8b0dcd32877107f6002cc429a71659d1/":s)+a},
+if(s==null)s=null}return(s==null?"https://www.gstatic.com/flutter-canvaskit/bd986c5ed20a62dc34b7718c50abc782beae4c33/":s)+a},
 $S:79}
 A.a9q.prototype={
 $1(a){this.a.remove()
@@ -63117,7 +63117,7 @@ A.uM.prototype={
 j(a){return"Provider<"+this.a.j(0)+"> not found for "+this.b.j(0)},
 $icl:1}
 A.Aw.prototype={
-H(a){return new A.u7("homepage",A.awA(),"Quicklinks by Pewrie Bontal",A.acI(null,A.anp(B.N,B.Ek),A.awt().$0(),!0),null)}}
+H(a){return new A.u7("homepage",A.awA(),"Quicklinks by Bon",A.acI(null,A.anp(B.N,B.Ek),A.awt().$0(),!0),null)}}
 A.a9Y.prototype={
 $1(a){return B.MV},
 $S:434}
@@ -68153,7 +68153,7 @@ B.KR=new A.l(!0,B.i,null,"Roboto",null,null,null,null,null,null,null,null,null,n
 B.Md=new A.bT(B.Kw,B.LS,B.Lz,B.J2,B.Lr,B.Kq,B.LW,B.Jy,B.K6,B.Lk,B.IU,B.LA,B.Lo,B.Lg,B.KR)
 B.K3=new A.l(!0,null,null,null,null,null,20,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.dc=new A.mK("@pewriebontal",null,B.K3,null,null)
-B.dd=new A.mK("Computing student from UON, Australia",null,null,null,null)
+B.dd=new A.mK("Computing student @ UON, Australia",null,null,null,null)
 B.Ob=new A.a1G(0,"system")
 B.Me=new A.wr(null)
 B.v0=new A.a1I(0,"clamp")
