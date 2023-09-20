@@ -13,7 +13,7 @@ const RESOURCES = {"canvaskit/chromium/canvaskit.js": "96ae916cd2d1b7320fff853ee
 "assets/shaders/ink_sparkle.frag": "f8b80e740d33eb157090be4e995febdf",
 "assets/assets/images/profile.png": "497d5427c443d350465a59e4c1678faf",
 "assets/AssetManifest.json": "014d4efac29a3adb0781ef51f48b4011",
-"assets/NOTICES": "f7e052309fabc582c6135ef4d1106655",
+"assets/NOTICES": "3696434c017ff4d6735d51519396ca4c",
 "assets/AssetManifest.bin": "b65c57d6ceceec89d7bdf5b9a5282ce9",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "89ed8f4e49bcdfc0b5bfc9b24591e347",
 "assets/packages/fluentui_system_icons/fonts/FluentSystemIcons-Regular.ttf": "d551f08783528b9040c4f6b8ba333a74",
@@ -29,13 +29,13 @@ const RESOURCES = {"canvaskit/chromium/canvaskit.js": "96ae916cd2d1b7320fff853ee
 "icons/Icon-maskable-512.png": "ac926a14a1f7ac6b40a3536d404ea16b",
 "icons/Icon-512.png": "5965ccabfe3ae4bbe984dfda114b935a",
 "flutter.js": "6fef97aeca90b426343ba6c5c9dc5d4a",
-"index.html": "6381219e4dee84bb23dac3eaf980243b",
-"/": "6381219e4dee84bb23dac3eaf980243b",
-"404.html": "10a1f18244ce5df7403ac5570c8a2352",
+"index.html": "051bbd2756807d4af09d110cd1e89e5d",
+"/": "051bbd2756807d4af09d110cd1e89e5d",
+"404.html": "0ce13b073433590f7b95079f0ab0dc60",
 "social-image.jpg": "d1d8137eea4b79808f6b23f71e4b6774",
 "favicon.png": "badd9c99a9a0882fe16bbb9c48fdc8b4",
 "main.dart.js": "6e9f18d84ee0f6a947a7774f5b436160",
-"humans.txt": "8a8485d55b779c0275fdd879edcd35ad",
+"humans.txt": "a4dab4adb85a71900eb1aa9a0d2415c3",
 "manifest.json": "9b2a559cb9ebfc4789298408a984577a"};
 // The application shell files that are downloaded before a service worker can
 // start.

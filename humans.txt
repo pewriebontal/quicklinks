@@ -6,4 +6,4 @@
 
 # TECHNOLOGY
 
-    Flutter, Web Assembly
+    Flutter
