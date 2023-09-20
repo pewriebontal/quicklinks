@@ -1,7 +1,7 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:dough/dough.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:quicklinks/src/core/hex2color.dart';
 import 'package:quicklinks/src/core/launcher.dart';
 import 'package:quicklinks/src/ui/widgets/footer.dart';
 import 'package:quicklinks/src/utils/info.dart' as constants;
@@ -33,7 +33,7 @@ class DevPage extends StatelessWidget {
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.endDocked,
       bottomNavigationBar: const Footer(),
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.orange.shade50,
     );
   }
 }
@@ -81,13 +81,15 @@ class BodyDev extends StatelessWidget {
               LinkCard(
                   icon: FontAwesomeIcons.githubAlt,
                   title: 'Github',
+                  iconColor: hexToColor("#171515"),
                   url: constants.kGitHubUrl,
-                  color: Colors.purple.shade900),
+                  color: Colors.orange.shade200),
               NavCard(
-                  icon: FontAwesomeIcons.backward,
+                  icon: FontAwesomeIcons.arrowLeft,
                   title: 'Go Back',
+                  iconColor: Colors.black,
                   des: route.homepage,
-                  color: Colors.grey.shade800),
+                  color: Colors.orange.shade100),
               const SizedBox(
                 height: 60.0,
               ),

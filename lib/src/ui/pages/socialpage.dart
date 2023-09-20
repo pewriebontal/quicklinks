@@ -1,7 +1,7 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:dough/dough.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:quicklinks/src/core/hex2color.dart';
 import 'package:quicklinks/src/core/launcher.dart';
 import 'package:quicklinks/src/ui/widgets/footer.dart';
 import 'package:quicklinks/src/utils/info.dart' as constants;
@@ -33,7 +33,7 @@ class SocialPage extends StatelessWidget {
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.endDocked,
       bottomNavigationBar: const Footer(),
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.orange.shade50,
     );
   }
 }
@@ -86,23 +86,27 @@ class BodySocial extends StatelessWidget {
               LinkCard(
                   icon: FontAwesomeIcons.twitter,
                   title: 'Twitter',
+                  iconColor: hexToColor("#00acee"),
                   url: constants.kTwitterUrl,
-                  color: Colors.blue.shade600),
+                  color: Colors.orange.shade200),
+              LinkCard(
+                  icon: FontAwesomeIcons.linkedin,
+                  title: 'LinkedIn',
+                  iconColor: hexToColor("#0A66C2"),
+                  url: constants.kLinkedInUrl,
+                  color: Colors.orange.shade200),
               LinkCard(
                   icon: FontAwesomeIcons.instagram,
                   title: 'Instagram',
+                  iconColor: Colors.black,
                   url: constants.kInstagramUrl,
-                  color: Colors.red.shade400),
-              LinkCard(
-                  icon: FontAwesomeIcons.tumblr,
-                  title: 'Tumblr',
-                  url: constants.kTumblrUrl,
-                  color: Colors.cyan.shade900),
+                  color: Colors.orange.shade200),
               NavCard(
-                  icon: FontAwesomeIcons.backward,
+                  icon: FontAwesomeIcons.arrowLeft,
                   title: 'Go Back',
+                  iconColor: Colors.black,
                   des: route.homepage,
-                  color: Colors.grey.shade800),
+                  color: Colors.orange.shade100),
               const SizedBox(
                 height: 60.0,
               ),

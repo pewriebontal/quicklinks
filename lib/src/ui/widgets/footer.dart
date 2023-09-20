@@ -6,16 +6,15 @@ class Footer extends StatelessWidget {
 
   const Footer({Key? key}) : super(key: key);
   @override
-
   Widget build(BuildContext context) {
     return TextButton(
-        onPressed: () => showAboutDialog(context: (context)),
-        child: Text(
+      onPressed: () => showAboutDialog(context: (context)),
+      child: Text(
         showCopyrightText
-            ? 'Made with Flutter.\n${constants.kCopyright}'
-            : 'Made with Flutter.\n',
+            ? 'Quick Links\n${constants.kCopyright}'
+            : 'Quick Links\n',
         textAlign: TextAlign.center,
-        style: const TextStyle(fontSize: 11),
+        style: const TextStyle(fontSize: 12),
       ),
     );
   }

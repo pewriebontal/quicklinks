@@ -1,17 +1,14 @@
 import 'package:fluentui_system_icons/fluentui_system_icons.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:dough/dough.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:quicklinks/src/core/launcher.dart';
-import 'package:quicklinks/src/ui/widgets/linkcard.dart';
 import 'package:quicklinks/src/ui/widgets/footer.dart';
 import 'package:quicklinks/src/utils/info.dart' as constants;
 import 'package:quicklinks/src/ui/widgets/navcard.dart';
 import 'package:quicklinks/src/core/route.dart' as route;
 
 class HomePage extends StatelessWidget {
-
   const HomePage({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
@@ -33,7 +30,7 @@ class HomePage extends StatelessWidget {
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.endDocked,
       bottomNavigationBar: const Footer(),
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.orange.shade50,
     );
   }
 }
@@ -80,24 +77,28 @@ class BodyHome extends StatelessWidget {
               ),
               NavCard(
                   icon: FluentIcons.globe_32_filled,
-                  title: 'Www',
+                  title: 'bontal.net',
+                  iconColor: Colors.black,
                   des: route.webpage,
-                  color: Colors.brown.shade900),
+                  color: Colors.orange.shade200),
               NavCard(
                   icon: FluentIcons.news_28_filled,
                   title: 'Articles',
+                  iconColor: Colors.black,
                   des: route.articlepage,
-                  color: Colors.brown.shade900),
+                  color: Colors.orange.shade200),
               NavCard(
                   icon: FluentIcons.people_28_filled,
                   title: 'Social Media',
+                  iconColor: Colors.black,
                   des: route.socialpage,
-                  color: Colors.brown.shade900),
+                  color: Colors.orange.shade200),
               NavCard(
                   icon: FluentIcons.code_24_filled,
-                  title: 'Developer',
+                  title: 'Dev Page',
+                  iconColor: Colors.black,
                   des: route.devpage,
-                  color: Colors.brown.shade900),
+                  color: Colors.orange.shade200),
               const SizedBox(
                 height: 60.0,
               ),

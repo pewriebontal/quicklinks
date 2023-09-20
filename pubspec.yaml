@@ -1,48 +1,27 @@
 name: quicklinks
-description: Collections of my links.
-publish_to: 'none'
+description: Linktree like webapp.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: '>=3.1.2 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.3
-  url_launcher: ^6.0.9
-  google_fonts: ^2.1.0
-  font_awesome_flutter: ^9.1.0
-  dough: ^1.0.1
-  fluentui_system_icons: ^1.1.136
+  url_launcher: ^6.1.14
+  google_fonts: ^6.0.0
+  font_awesome_flutter: ^10.5.0
+  dough: ^1.0.4
+  fluentui_system_icons: ^1.1.216
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^1.0.4
+  flutter_lints: ^2.0.3
 
 flutter:
   uses-material-design: true
   assets:
     - assets/images/profile.png
-
-
-  # To add custom fonts to your application, add a fonts section here,
-  # in this "flutter" section. Each entry in this list should have a
-  # "family" key with the font family name, and a "fonts" key with a
-  # list giving the asset and other descriptors for the font. For
-  # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-  #
-  # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/custom-fonts/#from-packages

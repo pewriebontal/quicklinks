@@ -1,11 +1,11 @@
 {
-    "name": "quicklinks",
-    "short_name": "quicklinks",
+    "name": "Quick Links",
+    "short_name": "Quick Links",
     "start_url": ".?utm_source=home_screen",
     "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#ffffff",
-    "description": "Collections of my links.",
+    "background_color": "#fbf3e2",
+    "theme_color": "#e2be7f",
+    "description": "Linktree like webapp.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

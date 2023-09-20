@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:dough/dough.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -33,7 +32,7 @@ class WebPage extends StatelessWidget {
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.endDocked,
       bottomNavigationBar: const Footer(),
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.orange.shade50,
     );
   }
 }
@@ -79,25 +78,33 @@ class BodyWeb extends StatelessWidget {
                 height: 25.0,
               ),
               LinkCard(
-                  icon: FontAwesomeIcons.home,
+                  icon: FontAwesomeIcons.house,
                   title: 'Home Page',
                   url: constants.kHomePageUrl,
-                  color: Colors.grey.shade900),
+                  color: Colors.orange.shade200),
               LinkCard(
                   icon: FontAwesomeIcons.blog,
                   title: 'Blog',
                   url: constants.kBlogUrl,
-                  color: Colors.blueGrey.shade800),
+                  color: Colors.orange.shade200),
               LinkCard(
-                  icon: FontAwesomeIcons.save, // if there is better icon for this let me know.
+                  icon: FontAwesomeIcons.portrait,
+                  title: 'Portfolio',
+                  url: constants.kPortfolioUrl,
+                  color: Colors.orange.shade200),
+              LinkCard(
+                  icon: FontAwesomeIcons
+                      .save, // if there is better icon for this let me know.
                   title: 'Softwares',
-                  url: constants.kHomePageUrl+"/404", // Go to 404 I still dont have.
-                  color: Colors.brown.shade800),
+                  url:
+                      "${constants.kHomePageUrl}/404", // Go to 404 I still dont have.
+                  color: Colors.orange.shade200),
               NavCard(
-                  icon: FontAwesomeIcons.backward,
+                  icon: FontAwesomeIcons.arrowLeft,
                   title: 'Go Back',
+                  iconColor: Colors.black,
                   des: route.homepage,
-                  color: Colors.grey.shade800),
+                  color: Colors.orange.shade100),
               const SizedBox(
                 height: 60.0,
               ),

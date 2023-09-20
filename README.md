@@ -1,6 +1,6 @@
-# quicklinks
+# Quick Links
 
- Collections of my Links.
+ Linktree like webapp.
 
  a fork of [Flutree](https://github.com/iqfareez/flutree)
 

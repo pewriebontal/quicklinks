@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:dough/dough.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -33,7 +32,7 @@ class ArticlePage extends StatelessWidget {
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.endDocked,
       bottomNavigationBar: const Footer(),
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.orange.shade50,
     );
   }
 }
@@ -81,13 +80,15 @@ class BodyArticle extends StatelessWidget {
               LinkCard(
                   icon: FontAwesomeIcons.medium,
                   title: 'Medium',
+                  iconColor: Colors.black,
                   url: constants.kMediumUrl,
-                  color: Colors.grey.shade900),
+                  color: Colors.orange.shade200),
               NavCard(
-                  icon: FontAwesomeIcons.backward,
+                  icon: FontAwesomeIcons.arrowLeft,
                   title: 'Go Back',
+                  iconColor: Colors.black,
                   des: route.homepage,
-                  color: Colors.grey.shade800),
+                  color: Colors.orange.shade100),
               const SizedBox(
                 height: 60.0,
               ),
