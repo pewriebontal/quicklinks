@@ -63143,7 +63143,7 @@ $0(){A.jA(u.T)},
 $S:0}
 A.AP.prototype={
 H(a){var s=null
-return A.kr(!0,A.vT(A.ee(s,A.hn(A.a([B.aN,B.cW,B.d9,B.dd,B.b1,B.dc,B.aN,new A.fG(B.A5,"Medium","http://pewriebontal.medium.com",B.ai,B.k,s),new A.fK(B.dC,"Go Back","homepage",B.co,B.k,s),B.da],t.D),B.ax,B.aB,B.as),B.r,s,s,s,s,s,s,s,B.ct,s,s,s)),B.S,!0)}}
+return A.kr(!0,A.vT(A.ee(s,A.hn(A.a([B.aN,B.cW,B.d9,B.dc,B.b1,B.dd,B.aN,new A.fG(B.A5,"Medium","http://pewriebontal.medium.com",B.ai,B.k,s),new A.fK(B.dC,"Go Back","homepage",B.co,B.k,s),B.da],t.D),B.ax,B.aB,B.as),B.r,s,s,s,s,s,s,s,B.ct,s,s,s)),B.S,!0)}}
 A.nO.prototype={
 H(a){return A.mw(null,B.bO,B.vQ,B.cu,A.oO(A.tj(B.cm,B.cv,!0,new A.RQ(),"Source Code")),B.cj)}}
 A.RQ.prototype={
@@ -63151,7 +63151,7 @@ $0(){A.jA(u.T)},
 $S:0}
 A.AQ.prototype={
 H(a){var s=null
-return A.kr(!0,A.vT(A.ee(s,A.hn(A.a([B.aN,B.cW,B.d9,B.dd,B.b1,B.dc,B.aN,new A.fG(B.A8,"Github","http://github.com/pewriebontal",B.ai,A.adD("#4078c0"),s),new A.fK(B.dC,"Go Back","homepage",B.co,B.k,s),B.da],t.D),B.ax,B.aB,B.as),B.r,s,s,s,s,s,s,s,B.ct,s,s,s)),B.S,!0)}}
+return A.kr(!0,A.vT(A.ee(s,A.hn(A.a([B.aN,B.cW,B.d9,B.dc,B.b1,B.dd,B.aN,new A.fG(B.A8,"Github","http://github.com/pewriebontal",B.ai,A.adD("#4078c0"),s),new A.fK(B.dC,"Go Back","homepage",B.co,B.k,s),B.da],t.D),B.ax,B.aB,B.as),B.r,s,s,s,s,s,s,s,B.ct,s,s,s)),B.S,!0)}}
 A.o8.prototype={
 H(a){return A.mw(null,B.bO,B.vR,B.cu,A.oO(A.tj(B.cm,B.cv,!0,new A.UP(),"Source Code")),B.cj)}}
 A.UP.prototype={
@@ -63159,7 +63159,7 @@ $0(){A.jA(u.T)},
 $S:0}
 A.AR.prototype={
 H(a){var s=null
-return A.kr(!0,A.vT(A.ee(s,A.hn(A.a([B.aN,B.cW,B.d9,B.dd,B.b1,B.dc,B.aN,new A.fK(B.Ae,"WWW","webpage",B.ai,B.k,s),new A.fK(B.Ai,"Articles","articlepage",B.ai,B.k,s),new A.fK(B.Ah,"Social Media","socialpage",B.ai,B.k,s),new A.fK(B.Aj,"Dev Page","devpage",B.ai,B.k,s),B.da],t.D),B.ax,B.aB,B.as),B.r,s,s,s,s,s,s,s,B.ct,s,s,s)),B.S,!0)}}
+return A.kr(!0,A.vT(A.ee(s,A.hn(A.a([B.aN,B.cW,B.d9,B.dc,B.b1,B.dd,B.aN,new A.fK(B.Ae,"WWW","webpage",B.ai,B.k,s),new A.fK(B.Ai,"Articles","articlepage",B.ai,B.k,s),new A.fK(B.Ah,"Social Media","socialpage",B.ai,B.k,s),new A.fK(B.Aj,"Dev Page","devpage",B.ai,B.k,s),B.da],t.D),B.ax,B.aB,B.as),B.r,s,s,s,s,s,s,s,B.ct,s,s,s)),B.S,!0)}}
 A.pf.prototype={
 H(a){return A.mw(null,B.bO,B.vS,B.cu,A.oO(A.tj(B.cm,B.cv,!0,new A.a0h(),"Source Code")),B.cj)}}
 A.a0h.prototype={
@@ -63167,7 +63167,7 @@ $0(){A.jA(u.T)},
 $S:0}
 A.AS.prototype={
 H(a){var s=null
-return A.kr(!0,A.vT(A.ee(s,A.hn(A.a([B.aN,B.cW,B.d9,B.dd,B.b1,B.dc,B.aN,new A.fG(B.A7,"Twitter","http://twitter.com/pewriebontal",B.ai,A.adD("#00acee"),s),new A.fG(B.A6,"Instagram","http://instagram.com/pewriebontal",B.ai,B.Ej,s),new A.fG(B.A9,"Tumblr","http://tumblr.bontal.net",B.ai,A.adD("#34526f"),s),new A.fK(B.dC,"Go Back","homepage",B.co,B.k,s),B.da],t.D),B.ax,B.aB,B.as),B.r,s,s,s,s,s,s,s,B.ct,s,s,s)),B.S,!0)}}
+return A.kr(!0,A.vT(A.ee(s,A.hn(A.a([B.aN,B.cW,B.d9,B.dc,B.b1,B.dd,B.aN,new A.fG(B.A7,"Twitter","http://twitter.com/pewriebontal",B.ai,A.adD("#00acee"),s),new A.fG(B.A6,"Instagram","http://instagram.com/pewriebontal",B.ai,B.Ej,s),new A.fG(B.A9,"Tumblr","http://tumblr.bontal.net",B.ai,A.adD("#34526f"),s),new A.fK(B.dC,"Go Back","homepage",B.co,B.k,s),B.da],t.D),B.ax,B.aB,B.as),B.r,s,s,s,s,s,s,s,B.ct,s,s,s)),B.S,!0)}}
 A.pC.prototype={
 H(a){return A.mw(null,B.bO,B.vT,B.cu,A.oO(A.tj(B.cm,B.cv,!0,new A.a2m(),"Source Code")),B.cj)}}
 A.a2m.prototype={
@@ -63175,7 +63175,7 @@ $0(){A.jA(u.T)},
 $S:0}
 A.AT.prototype={
 H(a){var s=null
-return A.kr(!0,A.vT(A.ee(s,A.hn(A.a([B.aN,B.cW,B.d9,B.dd,B.b1,B.dc,B.aN,new A.fG(B.Ad,"Home Page","http://bontal.net",B.ai,s,s),new A.fG(B.Ac,"Blog","http://blog.bontal.net",B.ai,s,s),new A.fG(B.Ab,"Softwares","http://bontal.net/404",B.ai,s,s),new A.fK(B.dC,"Go Back","homepage",B.co,s,s),B.da],t.D),B.ax,B.aB,B.as),B.r,s,s,s,s,s,s,s,B.ct,s,s,s)),B.S,!0)}}
+return A.kr(!0,A.vT(A.ee(s,A.hn(A.a([B.aN,B.cW,B.d9,B.dc,B.b1,B.dd,B.aN,new A.fG(B.Ad,"Home Page","http://bontal.net",B.ai,s,s),new A.fG(B.Ac,"Blog","http://blog.bontal.net",B.ai,s,s),new A.fG(B.Ab,"Softwares","http://bontal.net/404",B.ai,s,s),new A.fK(B.dC,"Go Back","homepage",B.co,s,s),B.da],t.D),B.ax,B.aB,B.as),B.r,s,s,s,s,s,s,s,B.ct,s,s,s)),B.S,!0)}}
 A.D1.prototype={
 H(a){return A.acF(A.df("Made with Flutter.\n\xa9 Pewrie Bontal - 2020-2023",B.K2,B.aQ),new A.TZ(a))}}
 A.TZ.prototype={
@@ -68151,9 +68151,9 @@ B.Lo=new A.l(!0,B.i,null,"Roboto",null,null,null,null,null,null,null,null,null,n
 B.Lg=new A.l(!0,B.i,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteMountainView labelMedium",null,null,null,null)
 B.KR=new A.l(!0,B.i,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteMountainView labelSmall",null,null,null,null)
 B.Md=new A.bT(B.Kw,B.LS,B.Lz,B.J2,B.Lr,B.Kq,B.LW,B.Jy,B.K6,B.Lk,B.IU,B.LA,B.Lo,B.Lg,B.KR)
-B.dc=new A.mK("Computing  from UON, Australia",null,null,null,null)
 B.K3=new A.l(!0,null,null,null,null,null,20,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.dd=new A.mK("@pewriebontal",null,B.K3,null,null)
+B.dc=new A.mK("@pewriebontal",null,B.K3,null,null)
+B.dd=new A.mK("Computing student from UON, Australia",null,null,null,null)
 B.Ob=new A.a1G(0,"system")
 B.Me=new A.wr(null)
 B.v0=new A.a1I(0,"clamp")
