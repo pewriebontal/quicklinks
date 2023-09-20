@@ -2,7 +2,7 @@
 
 # DEV
 
-    pewriebontal -- <hello@pewriebontal.ml>
+    pewriebontal -- <hello@bontal.net>
 
 # TECHNOLOGY
 
