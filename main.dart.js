@@ -63151,7 +63151,7 @@ $0(){A.jA(u.T)},
 $S:0}
 A.AQ.prototype={
 H(a){var s=null
-return A.kr(!0,A.vT(A.ee(s,A.hn(A.a([B.aN,B.cW,B.d9,B.dc,B.b1,B.dd,B.aN,new A.fG(B.A_,"Github","http://github.com/pewriebontal",B.ai,A.adD("#4078c0"),s),new A.fK(B.dC,"Go Back","homepage",B.co,B.k,s),B.da],t.D),B.ax,B.aB,B.as),B.r,s,s,s,s,s,s,s,B.ct,s,s,s)),B.S,!0)}}
+return A.kr(!0,A.vT(A.ee(s,A.hn(A.a([B.aN,B.cW,B.d9,B.dc,B.b1,B.dd,B.aN,new A.fG(B.A_,"Github","http://github.com/pewriebontal",B.ai,A.adD("#171515"),s),new A.fK(B.dC,"Go Back","homepage",B.co,B.k,s),B.da],t.D),B.ax,B.aB,B.as),B.r,s,s,s,s,s,s,s,B.ct,s,s,s)),B.S,!0)}}
 A.o8.prototype={
 H(a){return A.mw(null,B.bO,B.vR,B.cu,A.oN(A.ti(B.cm,B.cv,!0,new A.UP(),"Source Code")),B.cj)}}
 A.UP.prototype={
@@ -63177,7 +63177,7 @@ A.AT.prototype={
 H(a){var s=null
 return A.kr(!0,A.vT(A.ee(s,A.hn(A.a([B.aN,B.cW,B.d9,B.dc,B.b1,B.dd,B.aN,new A.fG(B.A3,"Home Page","http://bontal.net",B.ai,s,s),new A.fG(B.A2,"Blog","http://blog.bontal.net",B.ai,s,s),new A.fG(B.A1,"Softwares","http://bontal.net/404",B.ai,s,s),new A.fK(B.dC,"Go Back","homepage",B.co,B.k,s),B.da],t.D),B.ax,B.aB,B.as),B.r,s,s,s,s,s,s,s,B.ct,s,s,s)),B.S,!0)}}
 A.D1.prototype={
-H(a){return A.acF(A.df("Made with Flutter.\n\xa9 Pewrie Bontal - 2020-2023",B.JR,B.aQ),new A.TZ(a))}}
+H(a){return A.acF(A.df("Quicklinks\n\xa9 Pewrie Bontal - 2020-2023",B.JR,B.aQ),new A.TZ(a))}}
 A.TZ.prototype={
 $0(){return A.awC(this.a)},
 $S:0}
@@ -67877,7 +67877,7 @@ B.HO=new A.wl(1)
 B.yu=new A.w(4294967040)
 B.HN=new A.a0U(1,"double")
 B.Iu=new A.l(!0,B.xP,null,"monospace",null,null,48,B.fs,null,null,null,null,null,null,null,null,null,B.HO,B.yu,B.HN,null,"fallback style; consider putting your text in a Material",null,null,null,null)
-B.JR=new A.l(!0,null,null,null,null,null,11,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.JR=new A.l(!0,null,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.uZ=new A.l(!0,B.k,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.v_=new A.l(!0,null,null,null,null,null,null,B.bc,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.e=new A.wl(0)
