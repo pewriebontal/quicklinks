@@ -1,6 +1,6 @@
 {
-    "name": "Quicklinks",
-    "short_name": "Quicklinks",
+    "name": "Quick Links",
+    "short_name": "Quick Links",
     "start_url": ".?utm_source=home_screen",
     "display": "standalone",
     "background_color": "#fbf3e2",

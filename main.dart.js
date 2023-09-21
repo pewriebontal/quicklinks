@@ -63117,7 +63117,7 @@ A.uM.prototype={
 j(a){return"Provider<"+this.a.j(0)+"> not found for "+this.b.j(0)},
 $icl:1}
 A.Aw.prototype={
-H(a){return new A.u6("homepage",A.awA(),"Quicklinks by Bon",A.acI(null,A.anp(B.N,B.E9),A.awt().$0(),!0),null)}}
+H(a){return new A.u6("homepage",A.awA(),"Quick Links by Bon",A.acI(null,A.anp(B.N,B.E9),A.awt().$0(),!0),null)}}
 A.a9Y.prototype={
 $1(a){return B.MK},
 $S:434}
@@ -63177,7 +63177,7 @@ A.AT.prototype={
 H(a){var s=null
 return A.kr(!0,A.vT(A.ee(s,A.hn(A.a([B.aN,B.cW,B.d9,B.dc,B.b1,B.dd,B.aN,new A.fc(B.A4,"Home Page","http://bontal.net",B.ag,s,s),new A.fc(B.A2,"Blog","http://blog.bontal.net",B.ag,s,s),new A.fc(B.A3,"Portfolio","http://portfolio.bontal.net",B.ag,s,s),new A.fc(B.A1,"Softwares","http://bontal.net/404",B.ag,s,s),new A.fK(B.dC,"Go Back","homepage",B.co,B.k,s),B.da],t.D),B.ax,B.aB,B.as),B.r,s,s,s,s,s,s,s,B.ct,s,s,s)),B.S,!0)}}
 A.D1.prototype={
-H(a){return A.acF(A.df("Quicklinks\n\xa9 Pewrie Bontal - 2020-2023",B.JS,B.aQ),new A.TZ(a))}}
+H(a){return A.acF(A.df("Quick Links\n\xa9 Pewrie Bontal - 2020-2023",B.JS,B.aQ),new A.TZ(a))}}
 A.TZ.prototype={
 $0(){return A.awC(this.a)},
 $S:0}
