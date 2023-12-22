@@ -4,8 +4,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class NavCard extends StatelessWidget {
   const NavCard(
-      {Key? key, this.icon, this.title, this.des, this.color, this.iconColor})
-      : super(key: key);
+      {super.key, this.icon, this.title, this.des, this.color, this.iconColor});
   final IconData? icon;
   final String? title;
   final String? des;

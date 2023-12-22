@@ -12,7 +12,7 @@ import 'package:quicklinks/src/ui/widgets/linkcard.dart';
 class SocialPage extends StatelessWidget {
   final bool showCopyrightText = constants.kShowCopyrightText;
 
-  const SocialPage({Key? key}) : super(key: key);
+  const SocialPage({super.key});
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -41,7 +41,7 @@ class SocialPage extends StatelessWidget {
 class BodySocial extends StatelessWidget {
   final bool isShowSubtitle = constants.kShowSubtitleText;
 
-  const BodySocial({Key? key}) : super(key: key);
+  const BodySocial({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -20,6 +20,8 @@ const kTumblrUrl = 'http://tumblr.bontal.net';
 const kMediumUrl = 'http://pewriebontal.medium.com';
 const kGitHubUrl = 'http://github.com/pewriebontal';
 const kCRPHUrl = 'https://donate.crphmyanmar.org';
+const kGooglePlayUrl =
+    'https://play.google.com/store/apps/dev?id=5182978643372988432';
 const kNewUrl = "Add more";
 
 //copyright information

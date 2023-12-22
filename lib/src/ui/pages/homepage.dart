@@ -9,7 +9,7 @@ import 'package:quicklinks/src/ui/widgets/navcard.dart';
 import 'package:quicklinks/src/core/route.dart' as route;
 
 class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -38,7 +38,7 @@ class HomePage extends StatelessWidget {
 class BodyHome extends StatelessWidget {
   final bool isShowSubtitle = constants.kShowSubtitleText;
 
-  const BodyHome({Key? key}) : super(key: key);
+  const BodyHome({super.key});
 
   @override
   Widget build(BuildContext context) {

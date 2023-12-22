@@ -12,7 +12,7 @@ import 'package:quicklinks/src/ui/widgets/linkcard.dart';
 class DevPage extends StatelessWidget {
   final bool showCopyrightText = constants.kShowCopyrightText;
 
-  const DevPage({Key? key}) : super(key: key);
+  const DevPage({super.key});
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -41,7 +41,7 @@ class DevPage extends StatelessWidget {
 class BodyDev extends StatelessWidget {
   final bool isShowSubtitle = constants.kShowSubtitleText;
 
-  const BodyDev({Key? key}) : super(key: key);
+  const BodyDev({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -83,6 +83,12 @@ class BodyDev extends StatelessWidget {
                   title: 'Github',
                   iconColor: hexToColor("#171515"),
                   url: constants.kGitHubUrl,
+                  color: Colors.orange.shade200),
+              LinkCard(
+                  icon: FontAwesomeIcons.googlePlay,
+                  title: 'Google Play',
+                  iconColor: hexToColor("#171515"),
+                  url: constants.kGooglePlayUrl,
                   color: Colors.orange.shade200),
               NavCard(
                   icon: FontAwesomeIcons.arrowLeft,

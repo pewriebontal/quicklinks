@@ -5,8 +5,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class LinkCard extends StatelessWidget {
   const LinkCard(
-      {Key? key, this.icon, this.title, this.url, this.color, this.iconColor})
-      : super(key: key);
+      {super.key, this.icon, this.title, this.url, this.color, this.iconColor});
   final IconData? icon;
   final String? title;
   final String? url;
@@ -20,7 +19,7 @@ class LinkCard extends StatelessWidget {
         child: InkWell(
           splashColor: Colors.deepOrange.withAlpha(69),
           onTap: () {
-            launchURL('${url!}?utm_source=links.bontal.net');
+            launchURL(url!);
           },
           child: ListTile(
             leading: FaIcon(

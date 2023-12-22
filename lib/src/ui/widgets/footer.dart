@@ -4,7 +4,7 @@ import 'package:quicklinks/src/utils/info.dart' as constants;
 class Footer extends StatelessWidget {
   final bool showCopyrightText = constants.kShowCopyrightText;
 
-  const Footer({Key? key}) : super(key: key);
+  const Footer({super.key});
   @override
   Widget build(BuildContext context) {
     return TextButton(
