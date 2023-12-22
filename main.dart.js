@@ -63823,7 +63823,7 @@ A.eR.prototype={
 H(a){var s=this,r=null,q=A.a0(69,255,87,34)
 return A.p2(A.acc(A.DN(!1,!0,A.acV(A.ago(s.c,s.r),r,!1,r,A.di(s.d,B.v2,B.aS),B.jF),r,!0,r,r,r,r,r,r,r,r,r,new A.Ww(s),r,q,r,r),r,s.f,r,r,r))}}
 A.Ww.prototype={
-$0(){A.jJ(this.a.e+"?utm_source=links.bontal.net")},
+$0(){A.jJ(this.a.e)},
 $S:0}
 A.fR.prototype={
 H(a){var s=this,r=null,q=A.a0(69,255,152,0)
